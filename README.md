@@ -30,6 +30,10 @@ Background Music & SFX: Adds suspenseful soundtracks and jump scare effects.
     
     Saves this clip locally
 
+# Side Note
+Some background stock files were too large to add to the git repo so they were just omitted. If you plan on using this project, pay attention to the file names and 
+whether those files exist in your personal project.
+
 
 # Missing Features
   This project isn't perfect. There was an effort to add an AI voice in the background to read out the stories. 
