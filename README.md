@@ -24,6 +24,7 @@ Background Music & SFX: Adds suspenseful soundtracks and jump scare effects.
 
 # Process
 1.) Uses Reddit's API and Selenium to find the top n stories of the week and screenshots the stories.
+
     . Makes sures the screenshots aren't of videos already made (No Duplicate Videos)
     
     . Makes sures the image isn't of a Above 18 post or has a spoiler (All screenshots are viewable)
