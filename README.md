@@ -4,6 +4,17 @@ This repository automates the creation of YouTube horror shorts by generating ee
 This project was started to see if it was possible to autogenerate those AITA tiktok/shorts. Since that project proved to be a little difficult to implement,
 instead this project started focusing on recreating tiktok/shorts that show Reddit's Two Sentence Horror Stories.
 
+# Installation
+        git clone https://github.com/SidSrinivasan05/yt-horror-shorts.git  
+        cd yt-shorts-horror-stories/horror-reddit
+        
+Install required modules
+
+# Usage
+        python main.py  
+Manually go in and change how many shorts you want to be made using the parameter in the main function.
+
+
 # Features:
 Web Scraping: Goes through the sub reddit r/twosentencehorror to find the top stories.
 
@@ -41,7 +52,7 @@ whether those files exist in your personal project.
 
   There was also an effort to auto upload these videos. Initially Selenium seemed like the route for this, but Youtube's and Tiktok's made this 
   difficult to work with.
-  Youtube and Tiktok's API also were too difficult to work with.
+  Youtube and Tiktok's API also were too difficult to work with and required an existing business or a reputable youtube channel.
 
 # Modules Used
     . Selenium
