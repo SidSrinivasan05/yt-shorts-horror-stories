@@ -13,20 +13,20 @@ Background Music & SFX: Adds suspenseful soundtracks and jump scare effects.
 
 # Process
 1.) Uses Reddit's API and Selenium to find the top n stories of the week and screenshots the stories.
-    - Makes sures the screenshots aren't of videos already made (No Duplicate Videos)
+    . Makes sures the screenshots aren't of videos already made (No Duplicate Videos)
     
-    - Makes sures the image isn't of a Above 18 post or has a spoiler (All screenshots are viewable)
+    . Makes sures the image isn't of a Above 18 post or has a spoiler (All screenshots are viewable)
     
-    - Saves all the posts urls to a csv file to ensure no duplicate videos are made
+    . Saves all the posts urls to a csv file to ensure no duplicate videos are made
     
 2.) Uses PIL to invert the colors of the screenshot to dark mode to fit the theme
 
 3.) Then creates a 15 second video clip using MoviePy module 
-    -  This clip is formatted to fit the tiktok/short format
+    .  This clip is formatted to fit the tiktok/short format
     
-    -  Randomly picks a stock background video to play underneath the screenshot of the story
+    .  Randomly picks a stock background video to play underneath the screenshot of the story
     
-    -  Randomly picks a creepy audio to play in the back ground
+    .  Randomly picks a creepy audio to play in the back ground
     
     Saves this clip locally
 
@@ -40,12 +40,12 @@ Background Music & SFX: Adds suspenseful soundtracks and jump scare effects.
   Youtube and Tiktok's API also were too difficult to work with.
 
 # Modules Used
-    - Selenium
+    . Selenium
     
-    - Pandas
+    . Pandas
     
-    - PIL
+    . PIL
     
-    - Requests
+    . Requests
     
-    - MoviePy
+    . MoviePy
