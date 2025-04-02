@@ -5,8 +5,10 @@ This project was started to see if it was possible to autogenerate those AITA ti
 instead this project started focusing on recreating tiktok/shorts that show Reddit's Two Sentence Horror Stories.
 
 # Installation
+```sh
         git clone https://github.com/SidSrinivasan05/yt-horror-shorts.git  
         cd yt-shorts-horror-stories/horror-reddit
+```
         
 Install required modules
 
@@ -25,20 +27,20 @@ Background Music & SFX: Adds suspenseful soundtracks and jump scare effects.
 # Process
 1.) Uses Reddit's API and Selenium to find the top n stories of the week and screenshots the stories.
 
-. Makes sures the screenshots aren't of videos already made (No Duplicate Videos)
+- Makes sures the screenshots aren't of videos already made (No Duplicate Videos)
 
-. Makes sures the image isn't of a Above 18 post or has a spoiler (All screenshots are viewable)
+- Makes sures the image isn't of a Above 18 post or has a spoiler (All screenshots are viewable)
 
-. Saves all the posts urls to a csv file to ensure no duplicate videos are made
+- Saves all the posts urls to a csv file to ensure no duplicate videos are made
     
 2.) Uses PIL to invert the colors of the screenshot to dark mode to fit the theme
 
 3.) Then creates a 15 second video clip using MoviePy module 
-.  This clip is formatted to fit the tiktok/short format
+- This clip is formatted to fit the tiktok/short format
 
-.  Randomly picks a stock background video to play underneath the screenshot of the story
+- Randomly picks a stock background video to play underneath the screenshot of the story
 
-.  Randomly picks a creepy audio to play in the back ground
+- Randomly picks a creepy audio to play in the back ground
 
 Saves this clip locally
 
@@ -56,12 +58,12 @@ whether those files exist in your personal project.
   Youtube and Tiktok's API also were too difficult to work with and required an existing business or a reputable youtube channel.
 
 # Modules Used
-    . Selenium
-    
-    . Pandas
-    
-    . PIL
-    
-    . Requests
-    
-    . MoviePy
+- Selenium
+
+- Pandas
+
+- PIL
+
+- Requests
+
+- MoviePy
