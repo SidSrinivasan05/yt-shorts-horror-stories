@@ -13,7 +13,9 @@ instead this project started focusing on recreating tiktok/shorts that show Redd
 Install required modules
 
 # Usage
-        python main.py  
+```sh
+        python main.py
+```
 Manually go in and change how many shorts you want to be made using the parameter in the main function.
 
 
